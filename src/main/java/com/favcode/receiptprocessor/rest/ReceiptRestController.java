@@ -26,7 +26,7 @@ public class ReceiptRestController {
 
     // GET end point
     @GetMapping("/{id}/points")
-    public ResponseEntity<Map<String, Integer>> receiotPoints(@PathVariable String id){
+    public ResponseEntity<Map<String, Integer>> receiptPoints(@PathVariable String id){
         Integer points = receiptService.getPoints(id);
         if (points == null){
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);

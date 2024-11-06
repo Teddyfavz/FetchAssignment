@@ -2,9 +2,7 @@ package com.favcode.receiptprocessor.service;
 
 import com.favcode.receiptprocessor.model.Item;
 import com.favcode.receiptprocessor.model.Receipt;
-import lombok.Data;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
